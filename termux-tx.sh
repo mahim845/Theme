@@ -64,7 +64,7 @@ function menu() {
     while true; do
         clear
         echo "╔══════════════════════════════════════╗"
-        echo "║      Termux-OS Big Banner Menu       ║"
+        echo "║      Termux Tx Cmd Big Banner Menu       ║"
         echo "╠══════════════════════════════════════╣"
         echo "║ 1) Set Big Banner                    ║"
         echo "║ 2) Apply Color Theme                 ║"
@@ -72,6 +72,7 @@ function menu() {
         echo "║ 4) Reset Everything                  ║"
         echo "║ 5) Exit                              ║"
         echo "╚══════════════════════════════════════╝"
+        echi "Follow Our Page: Termux Tx Cmd"
         read -p "Choose [1-5]: " opt
         case $opt in
             1) big_banner ;;
